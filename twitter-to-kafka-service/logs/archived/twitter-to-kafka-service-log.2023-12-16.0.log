@@ -1,0 +1,40 @@
+2023-12-16 16:52:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 18564 (C:\spring projects\microservices-twitter\twitter-to-kafka-service\target\classes started by Cengi in C:\spring projects\microservices-twitter)
+2023-12-16 16:52:31 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-16 16:52:31 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.microservices.twitter.config.TwitterToKafkaServiceConfigData' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-12-16 16:52:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-12-16 16:52:31 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.microservices.twitter.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.twitter.config.TwitterToKafkaServiceConfigData' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.twitter.config.TwitterToKafkaServiceConfigData' in your configuration.
+
+2023-12-16 16:58:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 11288 (C:\spring projects\microservices-twitter\twitter-to-kafka-service\target\classes started by Cengi in C:\spring projects\microservices-twitter)
+2023-12-16 16:58:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-16 16:58:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.09 seconds (process running for 2.109)
+2023-12-16 16:58:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2023-12-16 16:58:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-12-16 16:58:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2023-12-16 16:58:33 [main] INFO  c.m.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-12-16 16:58:33 [pool-2-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: consectetuer Lorem malesuada dolor dolor Maecenas Java libero Fusce ipsum porttitor
+2023-12-16 16:58:43 [pool-2-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: purus Maecenas adipiscing porttitor massa sit sit Java pulvinar porttitor porttitor Lorem Maecenas
+2023-12-16 16:58:53 [pool-2-thread-1] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: dolor porttitor ultricies consectetuer ultricies malesuada malesuada Java lectus elit congue congue malesuada
+2023-12-16 17:03:28 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 8308 (C:\spring projects\microservices-twitter\twitter-to-kafka-service\target\classes started by Cengi in C:\spring projects\microservices-twitter)
+2023-12-16 17:03:28 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-16 17:03:29 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.154 seconds (process running for 2.032)
+2023-12-16 17:03:29 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2023-12-16 17:03:29 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2023-12-16 17:03:29 [main] INFO  c.m.t.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2023-12-16 17:03:29 [main] INFO  c.m.t.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2023-12-16 17:03:29 [pool-2-thread-1] INFO  c.m.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Lorem sit adipiscing Java congue Maecenas
+2023-12-16 17:03:39 [pool-2-thread-1] INFO  c.m.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: pulvinar ipsum congue massa Java elit libero
